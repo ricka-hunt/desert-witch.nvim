@@ -277,7 +277,7 @@ function M.setup()
     -- Built-in markdown syntax
     markdownH1 = { bg = orange, fg = bg },
     markdownH2 = { bg = sand, fg = bg },
-    markdownH3 = { bg = fg, fg = bg },
+    markdownH3 = { bg = celadon, fg = bg },
     markdownH4 = { fg = orange, bg = bg75 },
     markdownH5 = { fg = sand, bg = bg75 },
     markdownH6 = { fg = fg, bg = bg75 },
@@ -394,7 +394,7 @@ function M.setup()
     --RenderMarkdownIndent={},
     --RenderMarkdownHtmlComment={},
     RenderMarkdownLink = { fg = orange, underline = true, sp = orane },
-    RenderMarkdownTodo = { fg=cyan },
+    RenderMarkdownTodo = { fg = cyan },
     RenderMarkdownTableHead = { fg = sand },
     RenderMarkdownTableRow = { fg = sand },
     -- RenderMarkdownTableFill = {},
