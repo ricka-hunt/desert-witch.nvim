@@ -98,7 +98,7 @@ function M.setup()
     --  WildMenu       = {},
     --  WinBar         = {},
     --  WinBarNC       = {},
-    --  WinSeparator   = {},
+    WinSeparator = { fg = sand },
 
     --Syntax -----------------------------------
     Comment = { fg = bg25 },
