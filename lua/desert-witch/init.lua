@@ -205,7 +205,7 @@ function M.setup()
     ["@comment.note"] = { bg = scarlet, fg = bg }, -- note-type comments (e.g.moss`NOTE`, `INFO`, `XXX`)
     ["@markup.strong"] = { bold = true, bg = bg95, reverse = true },
     ["@markup.italic"] = { italic = true, underdouble = true, sp = altbg },
-    ["@markup.strikethrough"] = { strikethrough = true },
+    ["@markup.strikethrough"] = { fg = sand, strikethrough = true },
     ["@markup.underline"] = { underline = true },
     -- ["@markup.heading"] = {},
     ["@markup.heading.1"] = { link = "markdownH1" },
@@ -222,7 +222,7 @@ function M.setup()
     ["@markup.raw"] = { bg = bg75 },
     ["@markup.raw.block"] = { bg = bg75 },
     ["@markup.list"] = { fg = moss },
-    ["@markup.list.checked"] = { fg = grey },
+    ["@markup.list.checked"] = { fg = sand },
     ["@markup.list.unchecked"] = { fg = moss },
     ["@diff.plus"] = { link = "Added" },
     ["@diff.minus"] = { link = "Removed" },
@@ -360,8 +360,8 @@ function M.setup()
 
     -- RenderMarkdown
     RenderMarkdownBullet = { fg = moss },
-    RenderMarkdownCheckedItem = { fg = grey, strikethrough = true },
-    RenderMarkdownChecked = { fg = grey },
+    RenderMarkdownCheckedItem = { fg = sand, strikethrough = true },
+    RenderMarkdownChecked = { fg = sand },
     RenderMarkdownUnchecked = { fg = moss },
     RenderMarkdownH1 = { link = "markdownH1" },
     RenderMarkdownH2 = { link = "markdownH2" },
