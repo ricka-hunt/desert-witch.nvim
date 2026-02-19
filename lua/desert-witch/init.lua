@@ -204,7 +204,7 @@ function M.setup()
     ["@comment.todo"] = { bg = celadon, fg = bg }, -- todo-type comments (e.g.moss`TODO`, `WIP`)
     ["@comment.note"] = { bg = scarlet, fg = bg }, -- note-type comments (e.g.moss`NOTE`, `INFO`, `XXX`)
     ["@markup.strong"] = { bold = true, bg = bg95, reverse = true },
-    ["@markup.italic"] = { italic = true, underdouble = true, sp = altbg },
+    ["@markup.italic"] = { link = "markdownItalic" },
     ["@markup.strikethrough"] = { fg = sand, strikethrough = true },
     ["@markup.underline"] = { underline = true },
     -- ["@markup.heading"] = {},
@@ -254,10 +254,10 @@ function M.setup()
     DiagnosticSignHint = { bg = nil, fg = cyan },
     DiagnosticSignOk = { bg = nil, fg = moss },
 
-    DiagnosticUnderlineError = { bg = nil, fg = nil, underdotted = true, sp = scarlet },
-    DiagnosticUnderlineWarn = { bg = nil, fg = nil, underdouble = true, sp = orange },
+    DiagnosticUnderlineError = { bg = nil, fg = nil, undercurl = true, sp = scarlet },
+    DiagnosticUnderlineWarn = { bg = nil, fg = nil, undercurl = true, sp = orange },
     DiagnosticUnderlineInfo = { bg = nil, fg = nil, underline = true, sp = celadon },
-    DiagnosticUnderlineHint = { bg = nil, fg = nil, underdashed = true, sp = cyan },
+    DiagnosticUnderlineHint = { bg = nil, fg = nil, underline = true, sp = cyan },
     DiagnosticUnderlineOk = { bg = nil, fg = nil, underline = true, sp = moss },
 
     --LSP------------------------------------------------
@@ -288,7 +288,7 @@ function M.setup()
     -- markdownH5 = { bg = fg, fg = bg },
     -- markdownH6 = { bg = altbg, fg = sand },
     markdownBold = { reverse = true, bold = true },
-    markdownItalic = { underdouble = true, sp = altbg, italic = true },
+    markdownItalic = { underdouble = true, sp = sand, italic = true },
     markdownUrl = { fg = cyan },
     markdownLink = { fg = orange, underline = true, sp = orange },
     markdownLinkText = { fg = orange, underline = true, sp = orange },
@@ -414,7 +414,7 @@ function M.setup()
     SaffronText = { fg = saffron },
     MossText = { fg = moss },
     CeladonText = { fg = celadon },
-    NazarText= { fg = nazar },
+    NazarText = { fg = nazar },
     SandBg = { bg = sand },
     CyanBg = { bg = cyan },
     ScarletBg = { bg = scarlet },
