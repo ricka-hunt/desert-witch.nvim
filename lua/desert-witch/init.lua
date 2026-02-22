@@ -347,7 +347,8 @@ function M.setup()
     WhichKeyDesc = { fg = fg },
     WhichKeyTitle = { bg = bg, fg = orange },
     WhichKeySeparator = { fg = sand, bg = bg },
-    WhichKeyGroup = { bg = bg, fg = celadon },
+    WhichKeyGroup = { bg = bg, fg = moss },
+    WhichKeyIcon = { bg = bg, fg = fg },
 
     -- HiPhish/rainbow-delimiters.nvim
     RainbowDelimiterRed = { fg = scarlet },
