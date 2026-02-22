@@ -241,6 +241,7 @@ function M.setup()
     DiagnosticInfo = { fg = celadon },
     DiagnosticHint = { fg = cyan },
     DiagnosticOk = { fg = moss },
+    DiagnosticUnnecessary = { fg = bg25, strikethrough = true, sp = scarlet },
 
     -- DiagnosticFloatingError = {},
     -- DiagnosticFloatingHint = {},
