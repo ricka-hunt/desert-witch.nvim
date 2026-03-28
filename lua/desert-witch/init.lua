@@ -279,7 +279,7 @@ function M.setup()
     -- Built-in markdown syntax
     markdownH1 = { bg = orange, fg = bg, bold = true },
     markdownH2 = { bg = sand, fg = bg, bold = true },
-    markdownH3 = { bg = altbg, fg = orange, underline = true, sp = orange },
+    markdownH3 = { bg = altbg, fg = orange, underline = true, sp = orange, bold = true },
     markdownH4 = { bg = altbg, fg = sand, underline = true, sp = sand },
     markdownH5 = { bg = bg, fg = sand, underline = true, sp = sand },
     markdownH6 = { bg = bg, fg = sand, underline = true, sp = sand },
